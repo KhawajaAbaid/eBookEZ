@@ -29,10 +29,6 @@ app.iconbitmap('E:\Scripts\eBookEZ_icon.ico')
 # function that gets the word from searchbar as arg and returns the meaning from the web
 def find_meaning(words):
 
-    # why not?
-    defBox['text'] = "searching..."
-    synBox['text'] = "searching..."
-
     initial_time = time.time()
     print('Words at start', words)
     baseSearchURL = 'https://www.google.com/search?q='
