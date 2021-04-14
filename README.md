@@ -1,7 +1,7 @@
 # eBookEZ
 Get meanings of words by a single click while reading your eBook! No need to tab out!
 
-![](https://github.com/KhawajaAbaid/eBookEZ/blob/main/demo/eBookEZ_dark_demo.gif?raw=true)
+![eBookEZ_Dark_Demo](https://github.com/KhawajaAbaid/eBookEZ/blob/main/demo/eBookEZ_dark_demo.gif?raw=true)
 
 ---> How to install?
 
