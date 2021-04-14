@@ -3,9 +3,10 @@ Find meanings of words in just 1-2 clicks while reading your eBook without tabbi
 
 <!-- Place this tag where you want the button to render. -->
 DOWNLOAD THE APP NOW!
+
 <a class="github-button" href="https://github.com/KhawajaAbaid/eBookEZ/files/6307503/eBookEZ_v1_dark.zip" data-icon="octicon-download" aria-label="Download KhawajaAbaid/eBookEZ on GitHub">eBookEZ v1.0</a> (simple one .exe file that contains everything but may cause performance issues sometimes) 
 
-<a class="github-button" href="https://github.com/KhawajaAbaid/eBookEZ/releases/tag/v1.0F" data-icon="octicon-download" aria-label="Download KhawajaAbaid/eBookEZ on GitHub">eBookEZ v1.0F</a> (A folder with multiple files but enhances the performance) [Recommended]
+<a class="github-button" href="https://github.com/KhawajaAbaid/eBookEZ/releases/tag/v1.0F" data-icon="octicon-download" aria-label="Download KhawajaAbaid/eBookEZ on GitHub">eBookEZ v1.0F</a> (A folder with multiple files alongside .exe file but enhances the performance) [Recommended]
 
 ![eBookEZ_Dark_Demo](https://github.com/KhawajaAbaid/eBookEZ/blob/main/demo/eBookEZ_dark_demo.gif?raw=true)
 
