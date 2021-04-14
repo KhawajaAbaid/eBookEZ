@@ -1,6 +1,9 @@
 # eBookEZ
 Find meanings of words in just 1-2 clicks while reading your eBook without tabbing out!
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/KhawajaAbaid/eBookEZ/files/6307503/eBookEZ_v1_dark.zip" data-icon="octicon-download" aria-label="Download KhawajaAbaid/eBookEZ on GitHub">DOWNLOAD THE APP NOW!</a>
+
 ![eBookEZ_Dark_Demo](https://github.com/KhawajaAbaid/eBookEZ/blob/main/demo/eBookEZ_dark_demo.gif?raw=true)
 
 ---> How to install?
