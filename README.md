@@ -13,9 +13,11 @@ that's how its supposed to work! more on that below
 --->How to use it?
 
 Go ahead and open an eBook or any pdf file that contains text.
+
 (Note: The app doesn't require you to have a pdf open, you can just copy a word from anywhere, for example a browser, or just type in yourself.)
 -Now select and copy a word by using right-click menu or CTRL+C command. You should see the searchbar update and 
 now containing the very word you just copied.
+
 -Just click the "Meaning Button" right next to the search bar and give the app 1-3 seconds, it should display definitions (if any)
 and synonyms (if any) for that word.
 Continue reading your eBook! ;)
