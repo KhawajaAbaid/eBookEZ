@@ -1,6 +1,8 @@
 # eBookEZ
 Get meanings of words by a single click while reading your eBook! No need to tab out!
 
+![alt text](https://github.com/KhawajaAbaid/eBookEZ/blob/main/ebookez_dark_demo.gif?raw=true)
+
 ---> How to install?
 
 -Download the latest release and unzip.
