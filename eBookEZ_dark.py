@@ -41,17 +41,17 @@ def find_meaning(words):
     print('words after split ', wordsList)
     if len(wordsList) == 0:
         result = "ERROR: No word to be searched!"
-        print(result)
+        # print(result)
         #return result
     elif len(wordsList) == 1:
         query = wordsList[0]
-        print('query1 ', query)
+        # print('query1 ', query)
     elif len(wordsList) > 1:
         query = '+'.join(wordsList)
-        print('query2', query)
+        # print('query2', query)
 
     searchURL = baseSearchURL + query + '+' + 'means'
-    print("Search URL: ", searchURL)
+    # print("Search URL: ", searchURL)
     googleSearchPage = requests.get(searchURL)
     googleSearchPageSoup = bs4.BeautifulSoup(googleSearchPage.text, 'html.parser')
     searchPageSimplified = googleSearchPageSoup.select('div')
@@ -62,7 +62,7 @@ def find_meaning(words):
     # regex for extracting word's definition
     defExtractorRE = re.compile('.*class="BNeawe s3v9rd AP7Wnd">([ a-zA-Z0-9.,;:–\'\"\-]*)</div></div><div.*', re.IGNORECASE)
     wordDef = defExtractorRE.findall(desiredPart)
-    print("definition: ", wordDef)
+    # print("definition: ", wordDef)
     definition = ''
     #print("wordDef len: {}".format(len(wordDef)))
 
@@ -84,7 +84,7 @@ def find_meaning(words):
     #regex for extracting word's synonyms
     synExtractorRE = re.compile('.*class="r0bn4c rQMQod">synonyms: ([ a-zA-Z0-9.,;:–\'\"\-]*).*', re.IGNORECASE)
     wordSyns = synExtractorRE.findall(desiredPart)
-    print("synonyms: ", wordSyns)
+    # print("synonyms: ", wordSyns)
     #print("wordSyns len: {}".format(len(wordSyns)))
     synonyms = ''
     try:
@@ -101,7 +101,7 @@ def find_meaning(words):
 
     final_time = time.time()
     net_time = final_time - initial_time
-    print("Time taken: {}".format(net_time))
+    # print("Time taken: {}".format(net_time))
 
 
 # the following function compares the text in search bar with current clipboard text and updates in case of change
